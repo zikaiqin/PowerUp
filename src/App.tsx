@@ -5,8 +5,8 @@
 import React, {useState} from 'react';
 
 import {BottomNavigation} from 'react-native-paper';
-import HomePage from './pages/home/HomePage';
-import TrackerPage from './pages/tracker/TrackerPage';
+import HomePage from '@pages/home/HomePage';
+import TrackerPage from '@pages/tracker/TrackerPage';
 
 const App: React.FC = () => {
   const [index, setIndex] = useState(0);
